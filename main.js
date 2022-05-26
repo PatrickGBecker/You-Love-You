@@ -32,11 +32,6 @@ function getRandomElement(array) {
   return array[Math.floor(Math.random() * array.length)];
 };
 
-function playSound() {
-  var sample = document.getElementById("bell");
-  sample.play();
-}
-
 function show(element) {
   element.classList.remove('hidden');
 };
